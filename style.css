@@ -1,0 +1,122 @@
+body {
+    height: 100vh;
+    font-family: 'EB Garamond', serif;
+    background-color: rgb(35, 35, 35);
+    color: rgb(105,105,105);
+    font-weight: bold;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(211,211,211); 
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Sonsie One', cursive;
+    color: rgb(211,211,211);
+}
+
+h6 {
+    padding: 10px;
+}
+
+main {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    grid-gap: 5px;  
+}
+
+.box {
+   height: 100%;
+   display: grid;
+   grid-row: span 1;
+   grid-column: span 1;
+   background-color: white; 
+   border-radius: 5px;
+}
+
+.a {
+    background: url("images/Duncan.jpg");
+}
+
+.b {
+    background: url("images/apple-device-cellphone-communication-594452.jpg");
+}
+
+.c {
+    background: url("images/gryffindor.jpg");
+}
+
+.d {
+    background: url("images/github.jpg");
+}
+
+.e {
+    background: url("images/geo.jpg");
+}
+
+.f {
+    background: url("images/sand.jpg");
+}
+
+.g {
+    background: url("images/bridge.jpg");
+}
+
+.h {
+    background: url("images/lens.jpg");
+}
+
+.image {
+    border-top: 2px dotted rgba(105,105,105,.5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    main {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr); 
+        grid-template-columns: repeat(4, 1fr);
+        margin: 50px;
+    }
+
+    .image {
+        height: 325px;
+        background-position: center top;
+        background-color: white;
+        opacity: .3;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .image:hover {
+        background-color: white;
+        opacity: 1;
+    }
+
+    .c {
+        background-position: center;
+    }
+
+}
+
+@media only screen and (min-width: 1800px) {
+    .image {
+        height: 430px;
+    }
+}

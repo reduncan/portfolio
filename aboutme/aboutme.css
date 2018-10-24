@@ -1,0 +1,145 @@
+body {
+    height: 100vh;
+    font-family: 'EB Garamond', serif;
+    background-color: rgb(35, 35, 35);
+    color: rgb(105,105,105);
+    font-weight: bold;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(211,211,211); 
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Sonsie One', cursive;
+    color: rgb(211,211,211);
+}
+
+main {
+    /* height: 100%; */
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;  
+    margin: 50px;
+}
+
+.image {
+    height: 100%;
+    display: grid;
+    grid-row: span 1;
+    grid-column: span 2;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.box {
+    display: grid;
+    grid-row: span 1;
+    grid-column: span 1;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.a {
+    background: url(images/Duncan.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+.b {
+    background: url(images/RDCH.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.c {
+    background: url(images/ourdogs.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.d {
+    background: url(images/graduation.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+.e {
+    background: url(images/UGA.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.f {
+    background: url(images/snowday.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.g {
+    background: url(images/drum.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+
+.h {
+    background: url(images/TealSound.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.i {
+    background: url(images/bronze.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+
+
+.aboutme {
+    height: 100%;
+    display: grid;
+    grid-row: span 1;
+    grid-column: span 1;
+    background-color: lightgray;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 1.25;
+}
+
+.space {
+    margin: 10px;
+}
