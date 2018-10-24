@@ -62,11 +62,11 @@ main {
 }
 
 .e {
-    background: url("images/geo.jpg");
+    background: url("images/simplicity.png");
 }
 
 .f {
-    background: url("images/sand.jpg");
+    background: url("images/yelppreview.png");
 }
 
 .g {
@@ -83,7 +83,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     height: 150px;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -96,7 +96,7 @@ main {
     }
 
     .image {
-        height: 325px;
+        height: 393px;
         background-position: center top;
         background-color: white;
         opacity: .3;
