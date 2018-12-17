@@ -59,7 +59,7 @@ main {
 }
 
 .a {
-    background: url(images/Duncan.jpg);
+    background: url(../assets/aboutme-images/Duncan.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -67,14 +67,14 @@ main {
 }
 
 .b {
-    background: url(images/RDCH.jpg);
+    background: url(../assets/aboutme-images/RDCH.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
 }
 
 .c {
-    background: url(images/ourdogs.jpg);
+    background: url(../assets/aboutme-images/ourdogs.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ main {
 }
 
 .d {
-    background: url(images/graduation.jpg);
+    background: url(../assets/aboutme-images/graduation.jpg);
     background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -90,14 +90,14 @@ main {
 }
 
 .e {
-    background: url(images/UGA.jpg);
+    background: url(../assets/aboutme-images/UGA.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
 }
 
 .f {
-    background: url(images/snowday.jpg);
+    background: url(../assets/aboutme-images/snowday.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ main {
 }
 
 .g {
-    background: url(images/drum.jpg);
+    background: url(../assets/aboutme-images/drum.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -113,14 +113,14 @@ main {
 }
 
 .h {
-    background: url(images/TealSound.jpg);
+    background: url(../assets/aboutme-images/TealSound.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .i {
-    background: url(images/bronze.jpg);
+    background: url(../assets/aboutme-images/bronze.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;

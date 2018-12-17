@@ -46,35 +46,35 @@ main {
 }
 
 .a {
-    background: url("images/Duncan.jpg");
+    background: url("../assets/homepage-images/Duncan.jpg");
 }
 
 .b {
-    background: url("images/apple-device-cellphone-communication-594452.jpg");
+    background: url("../assets/homepage-images/apple-device-cellphone-communication-594452.jpg");
 }
 
 .c {
-    background: url("images/gryffindor.jpg");
+    background: url("../assets/homepage-images/gryffindor.jpg");
 }
 
 .d {
-    background: url("images/github.jpg");
+    background: url("../assets/homepage-images/github.jpg");
 }
 
 .e {
-    background: url("images/simplicity.png");
+    background: url("../assets/homepage-images/simplicity.png");
 }
 
 .f {
-    background: url("images/yelppreview.png");
+    background: url("../assets/homepage-images/yelppreview.png");
 }
 
 .g {
-    background: url("images/bridge.jpg");
+    background: url("../assets/homepage-images/faceBell.png");
 }
 
 .h {
-    background: url("images/lens.jpg");
+    background: url("../assets/homepage-images/lens.jpg");
 }
 
 .image {
